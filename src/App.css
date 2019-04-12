@@ -1,6 +1,32 @@
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.App-legend {
+  display: flex;
+  padding: 100px 0 0 0;
+  align-items: center;
+}
+
+.App-dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.App-dot-available {
+  background-color: #33cc66;
+}
+
+.App-dot-booked {
+  background-color: #424651;
+}
+
+/* .App-dot-selection {
+  background-color: #0060fc;
+} */
